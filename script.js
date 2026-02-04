@@ -1,13 +1,13 @@
-// elements
+// Elements
 const envelope = document.getElementById("envelope-container");
 const letter = document.getElementById("letter-container");
-const noBtn = document.querySelector(".no=btn");
-const yesBtn = document.querySelector(".btn[alt'Yes'");
+const noBtn = document.querySelector(".no-btn");
+const yesBtn = document.querySelector(".btn[alt='Yes']");
 
 const title = document.getElementById("letter-title");
 const catImg = document.getElementById("letter-cat");
 const buttons = document.getElementById("letter-buttons");
-const finaltext = document.getElementById("final-text");
+const finalText = document.getElementById("final-text");
 
 // Click Envelope
 
@@ -19,7 +19,7 @@ envelope.addEventListener("click", () => {
         document.querySelector(".letter-window").classList.add("open");
     },50);
 });
-    
+
 // Logic to move the NO btn
 
 noBtn.addEventListener("mouseover", () => {
@@ -41,7 +41,7 @@ noBtn.addEventListener("mouseover", () => {
 // let yesScale = 1;
 
 // yesBtn.style.position = "relative"
-// yesBtn.style.transformOrigin ="center center";
+// yesBtn.style.transformOrigin = "center center";
 // yesBtn.style.transition = "transform 0.3s ease";
 
 // noBtn.addEventListener("click", () => {
@@ -60,7 +60,7 @@ noBtn.addEventListener("mouseover", () => {
 // YES is clicked
 
 yesBtn.addEventListener("click", () => {
-    title.textContent = "YAAAAAYYYYY!!!";
+    title.textContent = "YAAAYYYYY!";
 
     catImg.src = "cat_dance.gif";
 

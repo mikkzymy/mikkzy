@@ -4,14 +4,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(tulip_bg.jpg);
+    background-image: url("meow_bg.jpg");
     font-family: "Pixelify Sans", sans-serif;
 }
 
 /* Envelope Screen */
 #envelope-container {
     text-align: center;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 @keyframes pulse {
@@ -50,7 +50,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(window.png);
+    background-image: url("window.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,12 +127,13 @@ display: inline-block;
     transition: transform 0.15s ease;
     cursor: default;
 }
+
 .final-text{
     font-size: 22px;
     line-height: 1.4;
     text-align: center;
     display: inline-block;
     padding: 10px 20px;
-    background-color: rgba(225,240,240,0.5);
+    background-color: rgba(255,240,240,0.5);
     border-radius: 12px;
 }
